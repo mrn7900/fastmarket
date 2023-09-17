@@ -1,18 +1,70 @@
 .headerContainer{
-    background-image: url("../../assets/supermarket.jpg");
+    background-image: url("../../assets/supermarket1.jpg");
     height: 25vh;
     width: 100%;
     display: flex;
-    justify-content: flex-end;  
+    justify-content: space-around;  
 }
 .headerContent{
     color: aliceblue;
     display: flex;
     flex-direction: column;
     margin-left: 10vw;
-    text-shadow: -3px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
     
 }
+.search{
+    border-radius: 15px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #382798; 
+    border: none;
+    color: white;
+    padding: 0.5vh 1.5vw;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 0.75vw;
+    margin:60px 20px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 15px;
+    margin-bottom: 4vh;
+   
+}
+.sinput{
+    position: relative;
+    border-radius: 15px;
+    width: 20vw;
+    height: 4vh;
+    margin-top: 5%;
+    opacity: 0.6;
+    transition: 0.3s;
+    background-color: white; 
+    border: none;
+    color: #382798;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.inputbtn{
+    position: absolute;
+    margin-right: -4vw;
+    margin-top: 2.5vh;
+    opacity: 0.4;
+    transition: 0.3s;
+    background-color: #382798; 
+    border: none;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+}
+.hover:hover {opacity: 1}
 
 .btnContainer{
     display: flex;
@@ -33,5 +85,6 @@
     transition-duration: 0.4s;
     border-radius: 15px;
     margin-right:2vw ;
+    
   }
   
