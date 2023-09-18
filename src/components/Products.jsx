@@ -42,9 +42,11 @@ function Products() {
       <div className='flexcontainer'>
         <div className='price'>
           <p>قیمت های روز</p>
-          <button className="buybtn btn">
-            مشاهده همه محصولات
-          </button>
+            <a href="/products">
+            <button className="buybtn btn">
+             مشاهده همه محصولات
+            </button>
+          </a>
         </div>
         
         <div className='product-slider'>

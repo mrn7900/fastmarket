@@ -1,0 +1,28 @@
+.headerCollapsed {  
+    background-image: url("../../assets/supermarket1.jpg");
+    height: 10vh; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+}
+.basketbtnCollapsed{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #382798; 
+    border: none;
+    color: white;
+    padding: 0.5vh 1.5vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.75vw;
+    margin:30px 20px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    margin-bottom: 4vh;
+
+}
+  
