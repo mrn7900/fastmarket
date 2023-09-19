@@ -11,7 +11,7 @@ function Footer(){
                 <div>
                     <h3>تماس باما</h3>
                     <p><BusinessOutlinedIcon/> تهران ، جردن</p>
-                    <p><PhoneOutlinedIcon/> : +982624255</p>
+                    <p><PhoneOutlinedIcon/> 0212043325</p>
                     <p><AlternateEmailOutlinedIcon/> ra@mail.com</p>
                 </div>
                 <div class='cpr'>

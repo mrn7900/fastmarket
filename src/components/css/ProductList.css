@@ -1,0 +1,26 @@
+.slideHolder{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #98CCD3;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 45vh;
+    margin-right: 15vw;
+    border-radius: 15px;
+   
+  }
+  .slideHolderbtn{
+    background-color: #364E68; 
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+  }

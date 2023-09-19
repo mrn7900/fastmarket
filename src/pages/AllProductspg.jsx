@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Footer from './Footer';
-import Navbar from './Navbar';
-import Header from './Header';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+import Header from '../components/Header';
+import ProductList from '../components/ProductList';
 function AllProductspg(){
     const [isHeaderVisible, setIsHeaderVisible] = useState(false);
 
@@ -23,6 +24,7 @@ function AllProductspg(){
       return <div>
                 {isHeaderVisible && <Navbar />}
                  <Header />
+                 <ProductList/>
                  <Footer/>
             </div>
 }

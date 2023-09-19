@@ -1,5 +1,5 @@
 .headerContainer{
-    background-image: url("../../assets/supermarket1.jpg");
+    background-image: url("../../assets/SuperMarket5.jpg");
     height: 25vh;
     width: 100%;
     display: flex;
@@ -7,7 +7,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: white;
    transition: background-color 0.6s ease-in-out, height 0.2s linear;
 }
 
@@ -29,9 +28,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #382798; 
+    background-color: #98CCD3; 
     border: none;
-    color: white;
+    color: #132238;
     padding: 0.5vh 1.5vw;
     text-align: center;
     text-decoration: none;
@@ -51,9 +50,9 @@
     margin-top: 5%;
     opacity: 0.6;
     transition: 0.3s;
-    background-color: white; 
+    background-color: 98CCD3; 
     border: none;
-    color: #382798;
+    color: #132238;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .inputbtn{
@@ -62,9 +61,9 @@
     margin-top: 2.5vh;
     opacity: 0.4;
     transition: 0.3s;
-    background-color: #382798; 
+    background-color: #132238; 
     border: none;
-    color: white;
+    color: #98CCD3;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     border-radius: 5px;
 }
@@ -75,9 +74,9 @@
     flex-direction: row;
 }
 .basketbtn{
-    background-color: #382798; 
+    background-color: #98CCD3; 
     border: none;
-    color: white;
+    color: #132238;
     padding: 0.5vh 1.5vw;
     text-align: center;
     text-decoration: none;

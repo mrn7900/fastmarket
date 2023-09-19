@@ -1,5 +1,5 @@
 .headerCollapsed {  
-    background-image: url("../../assets/supermarket1.jpg");
+    background-image: url("../../assets/SuperMarket5.jpg");
     height: 10vh; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -11,9 +11,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #382798; 
+    background-color: #98CCD3; 
     border: none;
-    color: white;
+    color: #132238;
     padding: 0.5vh 1.5vw;
     text-align: center;
     text-decoration: none;

@@ -1,5 +1,5 @@
-import Home from"./components/Home"
-import Products from "./components/AllProductspg.jsx"
+import Home from "./pages/Home.jsx";
+import Products from "./pages/AllProductspg.jsx"
 import './App.css';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 

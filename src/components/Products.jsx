@@ -23,8 +23,7 @@ function Products() {
       name: 'چای سیاه',
       price: '180 تومان',
       image: 'https://api.snapp.market/media/cache/product_variation_transparent_image/20230426-33130-20000.png',
-    },
-    // Add more products as needed
+    }
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
