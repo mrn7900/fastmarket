@@ -145,7 +145,7 @@ function ProductList() {
       <div className='slideHolder'>
         <div className='price'>
           <p>قیمت های روز</p>
-            <a href="/products">
+            <a href="/group">
             <button className="slideHolderbtn btn">
              محصولات بیشتر از این گروه
             </button>
@@ -183,7 +183,7 @@ function ProductList() {
       <div className='slideHolder'>
         <div className='price'>
           <p>قیمت های روز</p>
-            <a href="/products">
+            <a href="/group">
             <button className="slideHolderbtn btn">
              محصولات بیشتر از این گروه
             </button>
@@ -221,7 +221,7 @@ function ProductList() {
       <div className='slideHolder'>
         <div className='price'>
           <p>قیمت های روز</p>
-            <a href="/products">
+            <a href="/group">
             <button className="slideHolderbtn btn">
              محصولات بیشتر از این گروه
             </button>
@@ -259,7 +259,7 @@ function ProductList() {
       <div className='slideHolder'>
         <div className='price'>
           <p>قیمت های روز</p>
-            <a href="/products">
+            <a href="/group">
             <button className="slideHolderbtn btn">
              محصولات بیشتر از این گروه
             </button>
