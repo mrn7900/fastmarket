@@ -30,3 +30,5 @@ function Group(){
             </div>
 }
 export default Group;
+//color pallet
+//https://colorhunt.co/palette/ebf0f698ccd3364e68132238
