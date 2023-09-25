@@ -1,0 +1,48 @@
+.LoginContainer{
+    height: 45vh;
+    width: 20%;
+    margin-bottom: 15vh;
+    margin-top: 7.5vh;
+    margin-right:40vw ;
+    background-color: #98CCD3;
+    border-radius: 15px;
+   
+}
+.LoginForm{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-right: 7.5%;
+    border: none;
+    
+}
+.LoginItem{
+    margin-bottom: 6%;
+    border-radius: 15px;
+    height: 2.5vh;
+}
+.loginbtn{
+    background-color: #364E68; 
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+.forgetPassContainer{
+    display: flex;
+    flex-direction: row;
+}
+.forgetPassbtn{
+    width: 50%;
+    font-size: small;
+}
+.loginbtnHeader{
+    margin-top: 150%;
+}

@@ -51,9 +51,12 @@ function Navbar(){
             <button className="basketbtnCollapsed btn" >
                 <ShoppingCartOutlinedIcon/>
             </button>
+            <a href="/login">
             <button className="basketbtnCollapsed btn" >
                 <LoginOutlinedIcon/>
             </button>
+            </a>
+           
         </div>
         </header>
     </div>

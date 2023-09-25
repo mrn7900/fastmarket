@@ -79,9 +79,11 @@ function Header() {
             <button className="basketbtn btn" >
                 <ShoppingCartOutlinedIcon/>
             </button>
-            <button className="basketbtn btn" >
-                <LoginOutlinedIcon/>
-            </button>
+            <a href="/login" className="basketbtn btn">
+            <LoginOutlinedIcon className='loginbtnHeader'/>
+            
+            </a>
+            
         </div>
         </header>
     </div>
