@@ -3,6 +3,7 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import CategoriesDetailList from '../components/CategoriesDetailList'
+import ScrollToTopButton from '../components/ScrollToTopButton';
 
 function Group(){
     const [isHeaderVisible, setIsHeaderVisible] = useState(false);
@@ -26,6 +27,7 @@ function Group(){
                 {isHeaderVisible && <Navbar />}
                  <Header />
                  <CategoriesDetailList/>
+                 <ScrollToTopButton/>
                  <Footer/>
             </div>
 }

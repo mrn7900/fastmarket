@@ -1,0 +1,11 @@
+.scrollToTop {
+    position: fixed;
+    bottom: 10vh; /* Adjust the distance from the bottom as needed */
+    right: 12vw; /* Adjust the distance from the right as needed */
+    background-color: #98CCD3; 
+    border: none;
+    color: #132238;
+    border-radius: 15px;
+    width: 3%;
+    height: 6%;
+  }

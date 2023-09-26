@@ -3,6 +3,7 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import ProductList from '../components/ProductList';
+import ScrollToTopButton from '../components/ScrollToTopButton';
 function AllProductspg(){
     const [isHeaderVisible, setIsHeaderVisible] = useState(false);
 
@@ -25,6 +26,7 @@ function AllProductspg(){
                 {isHeaderVisible && <Navbar />}
                  <Header />
                  <ProductList/>
+                 <ScrollToTopButton/>
                  <Footer/>
             </div>
 }

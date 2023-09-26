@@ -5,6 +5,8 @@ import Header from '../components/Header';
 import Categories from '../components/Categories';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
+import ScrollToTopButton from '../components/ScrollToTopButton';
+
 
 function Home() {
   const [isHeaderVisible, setIsHeaderVisible] = useState(false);
@@ -32,7 +34,9 @@ function Home() {
       <HomeContent />
       <Products />
       <Categories />
+      <ScrollToTopButton />
       <Footer />
+      
     </div>
   );
 }
