@@ -63,6 +63,7 @@ function LoginForm() {
           <button type="submit" className="loginbtn btn">
             ورود
           </button>
+          {error && <div className="error-message">{error}</div>}
           <div className="forgetPassContainer">
             <button type="button" className="loginbtn btn forgetPassbtn">
               فراموشی رمز
@@ -71,7 +72,7 @@ function LoginForm() {
               ثبت نام
             </button>
           </div>
-          {error && <div className="error-message">{error}</div>}
+          
         </div>
       </form>
     </div>

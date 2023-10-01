@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import './css/WelcomeDashboard.css'
 
 function WelcomeDashboard() {
   const [username, setUsername] = useState('');
@@ -47,9 +48,15 @@ function WelcomeDashboard() {
   };
 
   return (
-    <div>
-      <h2>{`Dear "${username}" Welcome to Dashboard`}</h2>
-      <button onClick={handleLogout}>Logout</button>
+    <div className='introdashboardContainer'>
+      <div className='logoutOption'>
+        <h2>{`Dear "${username}" Welcome to Dashboard`}</h2>
+        <button className="basketbtn btn exitbtn" onClick={handleLogout}>خروج</button>
+      </div>
+      <div className='intro'>
+          <p>here is data</p>
+      </div>
+
     </div>
   );
 }
