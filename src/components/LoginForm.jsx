@@ -8,8 +8,6 @@ function LoginForm() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
-  
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -23,26 +21,18 @@ function LoginForm() {
       // If the login is successful, store the access token securely (e.g., in local storage)
       const token = response.data.token;
       localStorage.setItem('token', token);
-      console.log('API Response:', response.data);
 
-      // Store the access token if available
-     
-      if (token) {
-        localStorage.setItem('token', token);
-        console.error('token access is :'+ token);
-      } else {
-        console.error('Access token not found in API response.');
-      }
+      // Include the token in the headers for subsequent requests
+      axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
+
       // Redirect the user or perform any necessary actions
       // For example, you can navigate to another page using React Router.
       // Replace '/dashboard' with the appropriate route.
       window.location.href = '/dashboard';
     } catch (error) {
       // Handle login errors (e.g., display an error message to the user)
-      setError('Invalid username or password');
+      setError('نام کاربری و یا رمزعبور نامعتبر می باشد');
     }
-
-    
   };
 
   return (
