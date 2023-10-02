@@ -1,12 +1,11 @@
 .LoginContainer{
-    height: 45vh;
+    height: 52vh;
     width: 20%;
     margin-bottom: 15vh;
     margin-top: 7.5vh;
     margin-right:40vw ;
     background-color: #98CCD3;
     border-radius: 15px;
-   
 }
 .LoginForm{
     display: flex;
@@ -45,4 +44,8 @@
 }
 .loginbtnHeader{
     margin-top: 150%;
+}
+.loginlink{
+    width: 100%;
+    height: 8.3vh;
 }

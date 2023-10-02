@@ -14,10 +14,10 @@ function WelcomeDashboard() {
       const [headerEncoded, payloadEncoded] = token.split(".");
       const payload = JSON.parse(atob(payloadEncoded));
 
-      // Access the "username" field from the decoded token
+     
       const userUsername = payload['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name'];
 
-      // Set the "username" in the state
+
       setUsername(userUsername);
     }
   }, []);
@@ -26,7 +26,6 @@ function WelcomeDashboard() {
     try {
       const token = localStorage.getItem('token');
       
-      // Make a POST request to the logout endpoint with the access token in the header
       await axios.post(
         `https://localhost:7204/api/Authenticate/revoke/${username}`,
         {},
@@ -37,11 +36,9 @@ function WelcomeDashboard() {
         }
       );
 
-      // Remove the access token from local storage
       localStorage.removeItem('token');
 
-      // Redirect the user to the login page or perform any other necessary actions
-      window.location.href = '/login'; // Replace with your login page route
+      window.location.href = '/login'; 
     } catch (error) {
       console.error('Logout failed', error);
     }
@@ -49,13 +46,14 @@ function WelcomeDashboard() {
 
   return (
     <div className='introdashboardContainer'>
-      <div className='logoutOption'>
-        <h2>{`Dear "${username}" Welcome to Dashboard`}</h2>
-        <button className="basketbtn btn exitbtn" onClick={handleLogout}>خروج</button>
-      </div>
-      <div className='intro'>
+        <div className='dashboardData'>
           <p>here is data</p>
       </div>
+      <div className='logoutOption'>
+        <p>{`کاربر ${username}`}</p>
+        <button className="basketbtn btn exitbtn" onClick={handleLogout}>خروج</button>
+      </div>
+
 
     </div>
   );

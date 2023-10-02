@@ -1,16 +1,16 @@
 .introdashboardContainer{
     width: 85%;
-    background-color: brown;
     display: flex;
     margin-right: 7.5%;
 }
 .logoutOption{
     display: flex;
     flex-direction: column;
+    background-color: antiquewhite;
 
 }
-.intro{
-    width:85% ;
+.dashboardData{
+    width:95% ;
     background-color: rgb(42, 93, 165);
     display: flex;
 }
