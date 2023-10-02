@@ -7,6 +7,7 @@ function LoginForm() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -65,17 +66,22 @@ function LoginForm() {
           </button>
           {error && <div className="error-message">{error}</div>}
           <div className="forgetPassContainer">
-            <button type="button" className="loginbtn btn forgetPassbtn">
-              فراموشی رمز
-            </button>
+          <a href="/login" className='loginlink'>
+              <button type="button" className="loginbtn btn forgetPassbtn loginlink">
+                فراموشی رمز
+              </button>
+            </a>
             <a href="/signup" className='loginlink'>
               <button type="button" className="loginbtn btn forgetPassbtn loginlink">
                 ثبت نام
               </button>
             </a>
-
           </div>
-          
+          <a href="/home" className='loginlink'>
+              <button type="button" className="loginbtn btn forgetPassbtn loginlink">
+                صفحه اصلی
+              </button>
+            </a>
         </div>
       </form>
     </div>

@@ -90,9 +90,11 @@ function SignUpForm() {
           </button>
           {errorMessage && <div className="error-message">{errorMessage}</div>}
           <div className="forgetPassContainer">
-            <button type="button" className="loginbtn btn forgetPassbtn">
-              فراموشی رمز
-            </button>
+          <a href="/login" className='loginlink'>
+              <button type="button" className="loginbtn btn forgetPassbtn loginlink">
+                فراموشی رمز
+              </button>
+            </a>
             <a href="/login" className='loginlink'>
               <button type="button" className="loginbtn btn forgetPassbtn loginlink">
                 ورود کاربر
